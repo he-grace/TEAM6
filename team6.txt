@@ -1,0 +1,190 @@
+Proofs with APIs Evidence
+TEAM 6
+
+HSBC API
+
+Checking our principal account banlance
+{
+  "responseCodes": {
+    "responseCode": "00",
+    "description": "ACCION EXITOSA"
+  },
+  "accountBalance": {
+    "accountNumber": "4077641207",
+    "current": "0.00",
+    "available": "299.00"
+  }
+}
+
+Checking our Account Profile in AWS
+
+{
+  "responseCodes": {
+    "responseCode": "00",
+    "description": "ACCION EXITOSA"
+  },
+  "accountProfile": {
+    "accountNumber": "4077641207",
+    "onboardingDate": "08/04/19",
+    "branch": "99",
+    "closureDate": "",
+    "lastMaintenanceDate": "23/04/19",
+    "rfc": "ABCD800101FZ5",
+    "balance": "299.00",
+    "currency": "N$",
+    "fistHolder": "ROLANDO *ONCE HACKAOAT",
+    "secondHolder": "",
+    "firstComment": "",
+    "secondComment": "",
+    "firstHolder": {
+      "name": "",
+      "clientNumber": "9103232",
+      "rfc": "ABCD800101FZ5",
+      "curp": ""
+    },
+    "originalBalance": "299.00"
+  }
+}
+
+
+Mensajes SMS
+
+{
+	"sms": {
+		"mobilePhoneNumber": "+525584586637",
+		"message": "Bienvenido a Cochinito sin Fronteras"
+	}
+}
+
+
+Transactional Operations
+{
+  "responseCodes": {
+    "responseCode": "00",
+    "description": "ACCION EXITOSA"
+  },
+  "transferResponse": {
+    "sourceAccount": "4077641207",
+    "sourceAccountCurrent": "298.00",
+    "sourceAccountAvailable": "298.00",
+    "transactionAmount": "1.00",
+    "destinationAccount": "4077641215",
+    "destinationAccountCurrent": "302.00",
+    "destinationAccountAvailable": "302.00"
+  }
+}
+
+Query Customer Profile
+{
+  "responseCodes": {
+    "responseCode": "00",
+    "description": "ACCION EXITOSA"
+  },
+  "clientProfile": {
+    "name": "CARLOS HACKA UNO",
+    "clientNumber": "8790814",
+    "complementaryName": "",
+    "debitCardIndicator": "",
+    "branch": "99",
+    "onboardingDate": "02/10/17",
+    "rfc": "HACA800101K99",
+    "publicityCode": "Y",
+    "language": "ESP",
+    "nationality": "MX",
+    "birthDate": "01/01/80",
+    "civilStatus": "S",
+    "gender": "M",
+    "homePhone": "7221235454",
+    "officePhone": "7221235454",
+    "curp": ""
+  }
+}
+
+QR Generation
+
+{
+  "qrCode": {
+    "description": "QR Code Generated",
+    "codeBase64": "iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQAAAACgl2eQAAABZklEQVR42u2YUY7DIAxELXEAjpSrcyQOgOT1jAnSpul+MytQ1Fbu+3GwxwPmf69mBzjAAQ4gDwzD8n55t1FbiXCsqgbgdxt2WW3xBHMHtQDEI8dIELFgzESBSLO4Gz6FgdyviH99D7sDLDnuFzrIv9Tk5gDbf7Bl8nnVh82BtbLqMsFXrd4ZQJpMDTrcL2AdpBqACAbKDUemv0tOAqAI9xgoXthB5WOzBICKTCfGZRiRYkB8c4isgeL0KmIAE/Q5DaFf1/M9iABzjmCgsIPYRGIAm73EBt2OsQgC6BQ6dkqxZck9xuL+AM0Jymyarqw6PcBv0z6l2OpTihWARq+Lf9P9RtYPV6wAZMl5SvHrZu0PLK84pvX1h0WRAJZ1x6kWRgWT5VOrdwd4jHJKcXbNsEsQmHcjqWb3lBQFVsqeBlgS4DHW0mtB0OSAee2W02TQa+kBs/2ZWp8XVq4GnFv3AxzgAP8W+AEyIF6C/Fg0tQAAAABJRU5ErkJggg==",
+    "codeURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQAAAACgl2eQAAABZklEQVR42u2YUY7DIAxELXEAjpSrcyQOgOT1jAnSpul+MytQ1Fbu+3GwxwPmf69mBzjAAQ4gDwzD8n55t1FbiXCsqgbgdxt2WW3xBHMHtQDEI8dIELFgzESBSLO4Gz6FgdyviH99D7sDLDnuFzrIv9Tk5gDbf7Bl8nnVh82BtbLqMsFXrd4ZQJpMDTrcL2AdpBqACAbKDUemv0tOAqAI9xgoXthB5WOzBICKTCfGZRiRYkB8c4isgeL0KmIAE/Q5DaFf1/M9iABzjmCgsIPYRGIAm73EBt2OsQgC6BQ6dkqxZck9xuL+AM0Jymyarqw6PcBv0z6l2OpTihWARq+Lf9P9RtYPV6wAZMl5SvHrZu0PLK84pvX1h0WRAJZ1x6kWRgWT5VOrdwd4jHJKcXbNsEsQmHcjqWb3lBQFVsqeBlgS4DHW0mtB0OSAee2W02TQa+kBs/2ZWp8XVq4GnFv3AxzgAP8W+AEyIF6C/Fg0tQAAAABJRU5ErkJggg=="
+  }
+}
+
+
+GENTERA API
+Creación de cuenta N2
+
+    {
+   "UUID":"61bb1f5e-7cc6-4b15-a2ef-dfb454ba371d",
+   "Identifiers":{
+      "ServiceOfficeID":"242",
+      "CommerceID":"J211",
+      "OriginID":"Z06"
+   },
+   "BusinessPartnerCreateLevel2AccountData":{
+      "NameData":{
+         "GivenName":"Alejo",
+         "MiddleName":"Martínez",
+         "FamilyName":"Castillo",
+         "AditionalFamilyName":"Asesor"
+      },
+      "BirthDate":"1963-07-07",
+      "Gender":"1",
+      "DocumentIdentifiers":{
+         "Code":"ZCVELE",
+         "ID":"ARMNJR92120714H700"
+      },
+      "CardIdentification":"3195065",
+      "RegionBirth":"DF",
+      "BirthCountryCode":"MX",
+      "CitizenshipCode":"MX",
+      "PhoneData":{
+         "PhoneTypeID":"6",
+         "PhoneNumber":{
+            "SubscriberID":"5513530524"
+         }
+      },
+      "AddressData":{
+         "AddressTypeCode":"XXDEFAULT",
+         "StreetName":"Canela",
+         "CountryCode":"MX",
+         "RegionCode":"DF",
+         "CityName":"Mexico",
+         "DistrictName":"Iztacalco",
+         "AdditionalCityName":"Granjas Mexico",
+         "StreetPostalCode":"08400",
+         "HouseID":"484",
+         "AdditionalHouseID":"C-203"
+      }
+   }
+}
+
+Transfer Evidence
+{
+    "MT_InternalTransfersResp_sync": {
+        "MessageHeader": {
+            "ID": "2242e2265b5311ea9d23000000606206",
+            "CreationDateTime": "29-02-2020T18:25:20Z",
+            "SenderBusinessSystemID": "BS_CB_SWITCH_DEV",
+            "RecipientBusinessSystemID": "BS_GE_APIGEE_000_DEV"
+        },
+        "InternalTransferResult": {
+            "return": [
+                {
+                    "name": "originatorTransactionId",
+                    "singleValue": 110000000000509
+                },
+                {
+                    "name": "returnCode",
+                    "singleValue": "G7"
+                }
+            ]
+        },
+        "Log": {
+            "BusinessDocumentProcessingResultCode": 5,
+            "Item": {
+                "Note": "G7"
+            }
+        }
+    }
+}
